@@ -21,6 +21,7 @@ namespace EntityLayer.Concreate
         public int HeadingID { get; set; }
         public virtual Heading Heading { get; set; } //başlık ve içeriği ilişkili hale getirdik
         public int? WriterID { get; set; } //int? demek o alanı nullable yapar
+
         public virtual Writer Writer { get; set; }
 
     }

@@ -13,3 +13,11 @@ C:\Users\savra\Desktop\MVC Proje\MVCProje\DataAccessLayer\obj\Debug\DataAccessLa
 C:\Users\savra\Desktop\MVC Proje\MVCProje\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
 C:\Users\savra\Desktop\MVC Proje\MVCProje\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\Users\savra\Desktop\MVC Proje\MVCProje\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\savra\Desktop\MVC Proje\MVCProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writer_edit.resources
+C:\Users\savra\Desktop\MVC Proje\MVCProje\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+C:\Users\savra\Desktop\MVC Proje\MVCProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writerstatus.resources
+C:\Users\savra\Desktop\MVC Proje\MVCProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migration_headingstatusadd.resources
+C:\Users\savra\Desktop\MVC Proje\MVCProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_addMessageClas.resources
+C:\Users\savra\Desktop\MVC Proje\MVCProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_adddate.resources
+C:\Users\savra\Desktop\MVC Proje\MVCProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_addimagefile.resources
+C:\Users\savra\Desktop\MVC Proje\MVCProje\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_admin.resources

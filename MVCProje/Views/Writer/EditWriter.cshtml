@@ -1,0 +1,51 @@
+﻿@model EntityLayer.Concreate.Writer
+@{
+    ViewBag.Title = "EditWriter";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Yazarı Düzenle</h2>
+
+<br />
+
+@using (Html.BeginForm("EditWriter", "Writer", FormMethod.Post))
+{
+<div class="form-group">
+
+    @Html.Label("Yazar ID:")
+    @Html.TextBoxFor(x => x.WriterID, new { @class = "form-control" })
+
+    <br />
+    @Html.Label("Yazar Adı:")
+    @Html.TextBoxFor(x => x.WriterName, new { @class = "form-control" })
+    @Html.ValidationMessageFor(model => model.WriterName, "", new { @class = "text-danger" })
+    <br />
+
+    @Html.Label("Yazar Soyadı:")
+    @Html.TextBoxFor(x => x.WriterSurname, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.WriterSurname)
+    <br />
+
+    @Html.Label("Yazar Hakkında:")
+    @Html.TextAreaFor(x => x.WriterAbouth, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.WriterAbouth)
+    <br />
+
+    @Html.Label("Yazar Mail Adresi:")
+    @Html.TextBoxFor(x => x.WriterMail, new { @class = "form-control" })
+    @*@Html.ValidationMessageFor(x => x.WriterMail)*@
+    <br />
+
+    @Html.Label("Yazar Şifresi:")
+    @Html.TextBoxFor(x => x.WriterPassword, new { @class = "form-control" })
+    <br />
+
+    @Html.Label("Yazar Fotoğraf Link:")
+    @Html.TextBoxFor(x => x.WriterImage, new { @class = "form-control" })
+    <br />
+
+    <button class="btn btn-primary">Değişiklikleri Kaydet </button>
+
+</div>
+
+}

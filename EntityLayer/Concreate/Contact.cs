@@ -23,6 +23,7 @@ namespace EntityLayer.Concreate
 
         
         public string Message { get; set; }
+        public DateTime ContactDate { get; set; }
 
     }
 }

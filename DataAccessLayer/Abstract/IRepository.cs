@@ -16,6 +16,10 @@ namespace DataAccessLayer.Abstract
         void Update(T p);
         void Delete(T p);
 
+        T Get(Expression<Func<T, bool>> filter); // T tablosundan silme işlemi için 1 değer getiricez (ID)
+                                                 // Expression func ile de bir şarta göre yapacağımızı belirtiyoruz
+                                                 // bu şartın businesslayerdaki ICategoryService içinde id olduğunu söylüyoruz
+
         List<T> List(Expression<Func<T, bool>> filter); // şartlı listeleme işlemi
 
 
