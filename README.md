@@ -1,2 +1,2 @@
 # MVCProje
-MVC ile katmanlı mimaride sözlük sitesi oluşturmak
+Dictionary (blog) site in layered architecture with .net framework MVC
